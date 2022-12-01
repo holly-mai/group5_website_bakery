@@ -1,3 +1,13 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.p1 {
+    display:flex;
+    justify-content: center;
+}
+
 * {box-sizing:border-box}
 
 /*Slideshow container*/
@@ -9,7 +19,8 @@
 
 /* Make the images invisable by default */
 .Containers {
-    display:none;
+    display:flex;
+    justify-content: space-around;
 }
 
 /*forward & backward buttons */
@@ -31,6 +42,12 @@
 /* Place the "forward button" to the right */
 .forward {
     right:0;
+    border-radius: 4px 0 0 4px;
+}
+
+/* Place the "back button" to the left */
+.back {
+    left:0;
     border-radius: 4px 0 0 4px;
 }
 
