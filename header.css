@@ -1,0 +1,16 @@
+.message {
+    background-color: rgb(239, 111, 196);
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.logo {
+    text-align: center;
+}
+
+.cart {
+    text-align: right;
+}
