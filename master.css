@@ -34,9 +34,11 @@
 .containers {
     display: none;
     justify-content: space-around;
-    border: solid 1px rgb(239, 111, 196);
+    
 }
-
+.carimage{
+    border: solid 5px rgb(239, 111, 196);
+}
 /*forward & backward buttons */
 .back, .forward {
     cursor:pointer;
