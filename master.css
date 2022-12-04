@@ -7,20 +7,34 @@
     display:flex;
     justify-content: center;
 }
+.roW1 {
+   max-height: 100px;
+}
+.loGo {
+    max-width: 20%;
 
+}
+
+.caRt {
+    max-height: 5%;
+
+}
 * {box-sizing:border-box}
 
 /*Slideshow container*/
-.slideshow-container {
+.slideshow {
     max-width: 1000px;
+    text-align: center;
     position: relative;
     margin: auto;
+    
 }
 
 /* Make the images invisable by default */
-.Containers {
-    display:flex;
+.containers {
+    display: none;
     justify-content: space-around;
+    border: solid 1px rgb(239, 111, 196);
 }
 
 /*forward & backward buttons */
@@ -57,7 +71,7 @@
 }
 
 /* caption info */
-.Info {
+.info {
     color:#e3e3e3;
     font-size: 16px;
     padding: 10px 14px;
@@ -69,7 +83,7 @@
 }
 
 /* Worknumbering (1/4 etc) */
-.MessageInfo {
+.messageInfo {
     color: #f2f2f3;
     font-size: 14px;
     padding: 10px 14px;
@@ -78,7 +92,7 @@
 }
 
 /* The circles or bullets and indicators */
-.dots {
+.dot {
     cursor: pointer;
     height: 16px;
     width: 16px;
@@ -89,7 +103,7 @@
     transition: background-color 0.5s ease;
 }
 
-.enable, dots:hover {
+.enable, .dot:hover {
     background-color:#717161;
 }
 
