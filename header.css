@@ -17,7 +17,21 @@
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: none;
+
+}
+
+@media (max-width:1023px) {
+    nav ul {
+        background-color:rgb(239, 172, 216);
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (min-width:1024px) {
+    nav ul {
+        display: flex;
+    }
 }
 
 nav ul li {
@@ -42,3 +56,18 @@ nav ul li a:hover {
 .cart img {
     width: 53px;
 }
+
+.menu-button {
+    width: 50px;
+    height: 37px;
+    border: none;
+    background-image: url(images/hamburger-menu-image.png);
+background-size: 100%;
+}
+
+@media (min-width:1024px) {
+    .menu-button {
+        display: none;
+    }
+}
+
