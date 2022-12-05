@@ -30,7 +30,8 @@ nav ul {
 
 @media (min-width:1024px) {
     nav ul {
-        display: flex;
+        display: flex!important;
+
     }
 }
 

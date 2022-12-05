@@ -68,4 +68,15 @@ pause = () => {
     myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
   }
 
-  
+  let theBtn = document.getElementById('menubutton');
+  theBtn.addEventListener('click', openmenu);
+
+
+  function openmenu() {
+    var menu = document.getElementById("menulist");
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  } 
